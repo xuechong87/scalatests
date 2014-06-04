@@ -10,9 +10,7 @@ object Test1 {
 
 		val tup = (1,2,3,4,5,6,7)
 		val it = tup.productIterator
-		while (it.hasNext) {
-			println(it.next)
-		}
+		it.foreach(x=>println(x))
 		
 	}
 	
